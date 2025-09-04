@@ -1,0 +1,172 @@
+*{
+    margin:0; /*margen*/
+    padding: 0; /* relleno */
+    box-sizing: border-box; 
+}
+
+body {
+    font-size: 16px;
+    padding: 10px;
+}
+
+h1 {    
+    color: brown;
+    text-align: center;
+
+}
+
+h2 {    
+      text-align: center;
+}
+
+p {    
+      text-align: center;
+      
+}
+
+li {    
+      text-align: center;
+}
+
+header {    
+      text-align: center;
+
+  }
+
+.tabla {   
+   text-align: center; 
+}
+
+img {   
+   text-align: center; 
+    height: auto;
+}
+
+.tabla table {   
+  display: inline-table; 
+}
+
+.superior  {
+      font-weight: bold;
+      text-decoration: underline;
+      padding-bottom: 10px;
+      text-transform: uppercase;
+}
+
+.dh {   
+   text-align: center; 
+}
+
+.dh1 {
+   text-align: center; 
+   }
+
+.formcontac {
+      font-style: italic;
+      text-align: center;
+      align-content: center;
+         
+   }
+
+.dh1 img {   
+   text-align: center; 
+   height: 70px;
+   width: auto;
+}
+
+a {
+     text-decoration: none;
+     color:black;
+     position: sticky;
+     }
+
+.navbar {
+  background-color: #ee0808;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+     padding: 10px;
+ 
+}
+
+.navbar ul{
+ align-content: center;
+ 
+   display: flex;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   gap: 100px;
+   
+
+}
+
+.navbar li{
+   margin: 0 15px;
+
+}
+
+.navbar a{
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 15px 20px;
+   display: inline-block;
+
+}
+
+.container {
+   display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+           margin-top: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+.main-content {
+    width: 45%;
+    background-color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.main-content2 {
+    width: 45%;
+    background-color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedores {
+  background-color: #ee0808;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   
+}
+
+
+.fotoproducto  {  
+   text-align: center;
+   height: 200px;
+   width: auto;
+   
+}
+
+.container1 {
+    display: flex;
+
+}
